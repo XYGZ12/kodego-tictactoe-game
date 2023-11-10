@@ -1,0 +1,50 @@
+/* TicTacToe.css */
+
+/* Style the game board */
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the game message area */
+.message {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the game board */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  width: 310px;
+  height: 310px;
+}
+
+/* Style individual squares */
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  user-select: none;
+}
+
+/* Style the squares when hovered or clicked */
+.square:hover {
+  background-color: #ddd;
+}
+
+/* Style the squares with 'X' or 'O' */
+.square.X {
+  color: #f00; /* Red color for 'X' */
+}
+
+.square.O {
+  color: #00f; /* Blue color for 'O' */
+}
