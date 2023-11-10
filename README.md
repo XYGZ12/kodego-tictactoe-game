@@ -7,7 +7,7 @@ Compromises & Such:
 Because of time constraints, I have focused on the functionality of the app/game. With more time, I would like to improve the design and ui of my app/game.
 ---
 Error Cases & Such:
-For the app/game itself, there are no unhandled errors. But I'm having issues with deployment. It doesn't really have an impact on the solution, it's just that my app/game can only be accessed locally because I haven't deployed it yet.
+For the app/game itself, there are no unhandled errors. But I'm having issues with deployment. I believe it has something to do with the size of my app/game. And since I'm only using the free web hosting version of Render, the size of my app should be 512 MB or less. But I think the size of my app/game is more than that. It doesn't really have an impact on the solution, it's just that my app/game can only be accessed locally because I haven't deployed it yet.
 ---
 How To Access This App/Game Locally:
 1. Clone this app/game in your Github Desktop. You can also download it as a zip file if you prefer that method.
