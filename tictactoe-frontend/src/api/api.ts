@@ -1,5 +1,6 @@
 // src/api/api.ts
-const backendUrl = 'http://localhost:5000'; // Update this URL to match your backend's URL.
+// const backendUrl = 'http://localhost:5000'; // Update this URL to match your backend's URL.
+const backendUrl = 'https://kodego-tictactoe-backend.onrender.com/';
 
 // Function to make a move
 export async function makeMove(player: 'X' | 'O', position: number) {
